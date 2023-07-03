@@ -4,7 +4,7 @@ let root = ReactDOM.createRoot(document.getElementById('myreactdiv'));
 let MyFunComponent = (props) => 
 {
      console.log(props);
-    return (<h1> GREETINGS!! </h1>);
+    return (<h1> Welcome to my project </h1>);
 }
 
 root.render(<MyFunComponent name="Greetings!!"/>);
